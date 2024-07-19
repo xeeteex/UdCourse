@@ -7,7 +7,7 @@ const GoalList = props => {
      
       <ul className=" list-none m-2 p-2">
          {props.goals.map(goal=>{
-          return <li key={goal.id} className="border-solid-1 border-black">{goal.text}</li>
+          return <li className=" border-black border-1" key={goal.id} >{goal.text}</li>
 
          } )} 
       </ul> 
